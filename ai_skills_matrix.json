@@ -1,0 +1,104 @@
+{
+  "role": "AI-Enabled Professional",
+  "skills": [
+    {
+      "name": "AI Literacy & Concepts",
+      "weight": 0.15,
+      "levels": {
+        "1": "Has heard of AI but cannot explain it accurately; relies on buzzwords or vague metaphors.",
+        "2": "Can describe AI at a high level using simple analogies but lacks understanding of how systems actually work.",
+        "3": "Understands basic concepts such as machine learning, LLMs, and prompts; aware AI can make mistakes.",
+        "4": "Understands training vs inference, context limits, and hallucinations; can explain typical strengths and weaknesses.",
+        "5": "Explains modern AI systems clearly (LLMs, embeddings, retrieval); understands trade-offs like accuracy, cost, and latency.",
+        "6": "Can diagnose common AI failures (prompt issues, data gaps, evaluation errors); explains AI clearly to non-technical audiences.",
+        "7": "Has strong intuition for where AI will or will not work; anticipates failure modes before deployment.",
+        "8": "Understands second-order effects (distribution shift, automation bias, feedback loops); challenges misuse confidently.",
+        "9": "Expert-level conceptual mastery; sets standards for AI understanding and usage across teams or organisations."
+      }
+    },
+    {
+      "name": "Prompting & Task Decomposition",
+      "weight": 0.2,
+      "levels": {
+        "1": "Uses one-line prompts with inconsistent results; accepts poor outputs.",
+        "2": "Uses slightly longer prompts but with little structure or clarity of objective.",
+        "3": "Uses basic structure (role, task, format); can improve outputs through trial and error.",
+        "4": "Breaks problems into steps; specifies constraints and desired outputs.",
+        "5": "Creates reliable prompts with examples, formatting rules, and validation checks.",
+        "6": "Designs multi-step prompt flows; anticipates common edge cases and failure patterns.",
+        "7": "Creates reusable prompt patterns; coaches others on effective prompting techniques.",
+        "8": "Designs prompt systems with evaluation rubrics, self-checking, and consistency guarantees.",
+        "9": "Architects organisation-wide prompt standards and prompt-based systems at scale."
+      }
+    },
+    {
+      "name": "AI Tooling & Platforms",
+      "weight": 0.15,
+      "levels": {
+        "1": "Uses a single AI tool occasionally with no understanding of settings or limitations.",
+        "2": "Uses AI tools regularly but only in isolation (chat-only usage).",
+        "3": "Uses multiple AI tools for different tasks (chat, transcription, documents).",
+        "4": "Chooses appropriate tools for tasks; understands basic configuration options.",
+        "5": "Combines tools into simple workflows; understands APIs conceptually.",
+        "6": "Considers cost, latency, and reliability when selecting tools; can troubleshoot basic issues.",
+        "7": "Designs integrated AI toolchains; configures monitoring, QA, and fallback logic.",
+        "8": "Manages AI tooling strategically across teams; optimises cost/performance trade-offs.",
+        "9": "Designs and governs production-grade AI platforms with standards and controls."
+      }
+    },
+    {
+      "name": "Data Awareness & Quality Judgment",
+      "weight": 0.15,
+      "levels": {
+        "1": "Accepts AI outputs at face value without questioning data sources.",
+        "2": "Aware that bad data can cause errors but unsure how to address it.",
+        "3": "Recognises bias, missing context, and outdated information as problems.",
+        "4": "Improves results by refining inputs and choosing better sources.",
+        "5": "Judges data relevance, quality, and recency; understands basic bias risks.",
+        "6": "Identifies data leakage and representativeness issues; proposes mitigations.",
+        "7": "Designs retrieval strategies and quality checks to improve AI outcomes.",
+        "8": "Defines data governance practices for AI workflows.",
+        "9": "Expert-level data judgment; sets organisation-wide data standards and controls."
+      }
+    },
+    {
+      "name": "Automation & Workflow Design",
+      "weight": 0.2,
+      "levels": {
+        "1": "Uses AI manually for isolated tasks.",
+        "2": "Repeats similar AI tasks manually with minor variations.",
+        "3": "Creates simple templates or checklists for repeat use.",
+        "4": "Designs basic workflows linking inputs, AI steps, and outputs.",
+        "5": "Builds end-to-end workflows with human review and measurable impact.",
+        "6": "Identifies bottlenecks and improves workflow reliability.",
+        "7": "Scales workflows across teams with QA and exception handling.",
+        "8": "Continuously improves AI workflows using feedback and metrics.",
+        "9": "Architects enterprise-wide AI operating models and automation standards."
+      }
+    },
+    {
+      "name": "Risk, Ethics & Judgment",
+      "weight": 0.15,
+      "levels": {
+        "1": "Unaware or dismissive of AI risks.",
+        "2": "Aware AI can be wrong but often over-trusts outputs.",
+        "3": "Understands hallucinations and basic privacy risks.",
+        "4": "Applies simple safeguards such as verification and redaction.",
+        "5": "Designs practical controls for bias, IP, and misuse in workflows.",
+        "6": "Balances automation with human oversight appropriately.",
+        "7": "Designs governance, auditability, and escalation paths.",
+        "8": "Proactively manages AI risk across teams and use cases.",
+        "9": "Sets organisational AI ethics, risk policy, and compliance standards."
+      }
+    }
+  ],
+  "scoring_guidance": {
+    "scale": "1–9 per skill",
+    "overall_interpretation_0_to_100": {
+      "0-24": "AI-aware but limited practical leverage.",
+      "25-49": "Developing practitioner with useful skills in defined contexts.",
+      "50-74": "Strong AI-enabled operator capable of independent delivery.",
+      "75-100": "AI-native leader capable of designing and scaling AI systems responsibly."
+    }
+  }
+}
